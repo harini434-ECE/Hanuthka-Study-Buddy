@@ -60,6 +60,21 @@ This makes the experience more personalized and effective.
 * **Frontend:** HTML, CSS, JavaScript
 * **Backend:** Python (Flask)
 * **Concept Used:** Memory-based AI
+  
+---
+📸 Screenshots
+### Dashboard
+![Dashboard](dashboard.png)
+
+### AI Coach
+![AI Coach](ai_coach.png)
+
+### Quiz
+![Quiz](quiz.png)
+
+###
+![Study Plan](stydy plan.png)
+
 
 ---
 
