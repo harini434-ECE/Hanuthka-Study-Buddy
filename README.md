@@ -67,13 +67,13 @@ This makes the experience more personalized and effective.
 ![Dashboard](dashboard.png)
 
 ### AI Coach
-![AI Coach](ai_coach.png)
+![AI Coach](aicoach.png)
 
 ### Quiz
 ![Quiz](quiz.png)
 
 ###
-![Study Plan](stydy plan.png)
+![Study Plan](studyplan.png)
 
 
 ---
