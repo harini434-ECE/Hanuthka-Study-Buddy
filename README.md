@@ -63,12 +63,6 @@ This makes the experience more personalized and effective.
 
 ---
 
-## 📸 Screenshots
-
-(Add screenshots of your dashboard, quiz, and AI coach here)
-
----
-
 ## 🎯 Objective
 
 To create a smart study assistant that helps students:
