@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hanuthka AI</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #0f172a;
+            color: white;
+            text-align: center;
+        }
+        #chatbox {
+            width: 400px;
+            margin: auto;
+            margin-top: 50px;
+        }
+        #messages {
+            height: 300px;
+            overflow-y: scroll;
+            border: 1px solid #444;
+            padding: 10px;
+        }
+        input {
+            width: 70%;
+            padding: 10px;
+        }
+        button {
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Hanuthka Study Buddy 🤖</h2>
+
+<div id="chatbox">
+    <div id="messages"></div>
+    <input id="input" placeholder="Ask something..." />
+    <button onclick="sendMessage()">Send</button>
+</div>
+
+<script>
+async function sendMessage() {
+    const input = document.getElementById("input");
+    const msg = input.value;
+
+    document.getElementById("messages").innerHTML += "<p><b>You:</b> " + msg + "</p>";
+
+    const res = await fetch("/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: msg })
+    });
+
+    const data = await res.json();
+
+    document.getElementById("messages").innerHTML += "<p><b>Bot:</b> " + data.reply + "</p>";
+
+    input.value = "";
+}
+</script>
+
+</body>
+</html>
