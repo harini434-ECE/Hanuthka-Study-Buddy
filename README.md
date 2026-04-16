@@ -79,7 +79,7 @@ To create a smart study assistant that helps students:
 
 ---
 
-## 👩‍💻 Team OG
+## 👩‍💻 Team Hanuthka
 
 * Harini
 * Anusha
